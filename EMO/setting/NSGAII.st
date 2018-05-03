@@ -1,0 +1,13 @@
+---------------MOEAD/Setting:null---------------------------
+populationSize:100
+CrossoverProbability:0.8
+CrossoverDistribution:15.0
+CrossoverName:SBXCrossover
+MutationDistribution:20.0
+MutationName:PolynomialMutation
+MutationProbability:-1
+maxEvaluations:40000
+isMax:false
+NumberOfTrial:100
+------------------notNeedSetting:null--------------------------
+MaxGeneration:10000
