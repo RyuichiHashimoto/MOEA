@@ -17,9 +17,6 @@ public abstract  class Algorithm implements Serializable {
 		random = d;
 	}
 
-
-
-	//名前を入力してそれに該当したoperator を返す
 	protected Map<String, Operator> operators_ = null;
 
 	protected Map<String, Object> inputParameters_ = null;
@@ -30,7 +27,7 @@ public abstract  class Algorithm implements Serializable {
 		problem_ = problem;
 	}
 
-	protected boolean isMAX_;
+	protected boolean isMax;
 
 
 	public Map<String,Object> getAllmap(){
